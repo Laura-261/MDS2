@@ -105,6 +105,13 @@
   </issueManagement>
 
   <properties>
+    <sonar.organization>laura-261</sonar.organization>
+    <sonar.projectKey>Laura-261_MDS2</sonar.projectKey>
+    <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
+    <skipTests>true</skipTests>
+
+
+
     <!-- Shared properties with plugins and version numbers across submodules-->
     <asciidoctorj.version>2.5.3</asciidoctorj.version>
     <bootstrap.version>3.3.7</bootstrap.version>
